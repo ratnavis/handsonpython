@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  <meta content="The description of Intro" name="description" />
+<meta content="The intro title" name="title" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>1. The Beginning &mdash; Hands-on Python 0.0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="2. Lists" href="lists.html" />
+    <link rel="prev" title="Welcome to Hands-on Python’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> Hands-on Python
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. The Beginning</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction">1.1. Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#your-development-environment">1.2. Your Development Environment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#scalar-variables-and-operators">1.3. (Scalar) Variables and Operators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#input-and-output">1.4. Input and Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-functions">1.5. Creating Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#excercises">1.6. Excercises</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="lists.html">2. Lists</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Hands-on Python</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">1. </span>The Beginning</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/the_beginning.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="the-beginning">
+<h1><span class="section-number">1. </span>The Beginning<a class="headerlink" href="#the-beginning" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><p>The White Rabbit put on his spectacles. ‘Where shall I begin, please your Majesty?’ he asked.</p>
+<p>‘Begin at the beginning,’ the King said gravely, ‘and go on till you come to the end: then stop.’</p>
+</div></blockquote>
+<div class="section" id="introduction">
+<h2><span class="section-number">1.1. </span>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<div class="sidebar">
+<p class="sidebar-title">slides</p>
+<p>-&gt; <a class="reference external" href="http://localhost:8000/slides/the_beginning.html#(1)">1.1 Introduction</a></p>
+</div>
+<p>You have probably used computers to do all sorts of useful and interesting things. In each application, the computer responds in different ways to your input, from the keyboard, mouse or a file. Still the underlying operations are determined by the design of the program you are given. In this set of tutorials you will learn to write your own computer programs, so you can give the computer instructions to react in the way you want.</p>
+<p>First let us place Python programming in the context of the computer hardware. At the most fundamental level in the computer there are instructions built into the hardware. These are very simple instructions, peculiar to the hardware of your particular type of computer. The instructions are designed to be simple for the hardware to execute, not for humans to follow. The earliest programming was done with such instructions. If was difficult and error-prone. A major advance was the development of higher-level languages and translators for them. Higher-level languages allow computer programmers to write instructions in a format that is easier for humans to understand. For example</p>
+<blockquote>
+<div><p>z = x+y</p>
+</div></blockquote>
+<p>is an instruction in many high-level languages that means something like:</p>
+<blockquote>
+<div><p>Access the value stored at a location labeled x
+Calculate the sum of this value and the value stored at a location labeled y
+Store the result in a location labeled z.</p>
+</div></blockquote>
+<p>No computer understands the high-level instruction directly; it is not in machine language. A special program must first translate instructions like this one into machine language. This one high-level instruction might be translated into a sequence of three machine language instructions corresponding to the three step description above:</p>
+<p>0000010010000001
+0000000010000010
+0000010110000011</p>
+<p>Obviously high-level languages were a great advance in clarity!</p>
+<p>If you follow a broad introduction to computing, you will learn more about the layers that connect low-level digital computer circuits to high-level languages.</p>
+<p>There are many high-level languages. The language you will be learning is Python. Python is one of the easiest languages to learn and use, while at the same time being very powerful: It is one of the most used languages by highly productive professional programmers. Also Python is a free language! If you have your own computer, you can download it from the Internet….</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span><span class="p">;</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="your-development-environment">
+<h2><span class="section-number">1.2. </span>Your Development Environment<a class="headerlink" href="#your-development-environment" title="Permalink to this headline">¶</a></h2>
+<div class="sidebar">
+<p class="sidebar-title">slides</p>
+<p>-&gt; <a class="reference external" href="http://localhost:8000/slides/the_beginning.html#(1)">1.2 Your development environment</a></p>
+</div>
+<p>At a minimum only the Python interpreter is needed to run a simple program. You
+can check whether an interpreter is availble in your computer by just entering
+the command python in the command shell (CMD in Windows). Below are typical
+outputs from Windows, Mac OS and Linux:</p>
+<p>$ python
+Python 2.7.16 (default, Oct 10 2019, 22:02:15)
+[GCC 8.3.0] on linux2
+Type “help”, “copyright”, “credits” or “license” for more information.
+&gt;&gt;&gt;</p>
+<p>As you can see the Linux machine has Python 2 whereas Windows and Mac OS are on
+Python 3. But for simple programs the version doesn’t matter. Create the
+ubiquitous “Hello World!” program in any text editer and run it through Python.</p>
+<p>The ubiquotous “Hello World!”
+Created by Mr John Doe, 23 August 2020</p>
+<p>print(“Hello World!”)</p>
+<p>$ python helloworld.py
+Hello World!</p>
+<img alt="_images/matplotlib_ex1.png" src="_images/matplotlib_ex1.png" />
+<p><a class="reference external" href="https://www.youtube.com/watch?v=n2aYeEAzbMI">Thisdfsd</a></p>
+</div>
+<div class="section" id="scalar-variables-and-operators">
+<h2><span class="section-number">1.3. </span>(Scalar) Variables and Operators<a class="headerlink" href="#scalar-variables-and-operators" title="Permalink to this headline">¶</a></h2>
+<div class="sidebar">
+<p class="sidebar-title">slides</p>
+<p><a class="reference external" href="http://localhost:8000/slides/the_beginning.html#(5)">Variables and operators</a></p>
+</div>
+<p>Python directly recognizes a variety of types of data. Here are a few:</p>
+<blockquote>
+<div><p>Numbers: 3, 125, -8, 2.25</p>
+<p>Character strings: ‘Hi’, ‘Doe, John ‘</p>
+<p>Boolean variable: TRUE, FALSE</p>
+</div></blockquote>
+<dl class="simple">
+<dt>Therefore if you just write:</dt><dd><p>size_of_the_class = 8
+air_temperatur = 13.5
+candidate = ‘Doe, John’
+raining = FALSE</p>
+</dd>
+</dl>
+<p>Python recognizes their types and allocate memory differently. You can always
+ask Python their types through the built-in funtion type().</p>
+<blockquote>
+<div><p>type(size_of_the_class)</p>
+</div></blockquote>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="nb">type</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+<span class="go">&lt;class &#39;int&#39;&gt;</span>
+<span class="go">&gt;&gt;&gt;</span>
+</pre></div>
+</div>
+<p>Python abbreviates integers as int</p>
+<p>type(air_temperature)</p>
+<p>Note the name in the last result is float, not real or decimal, coming from the term “floating point”, for reasons that will be explained later, in Floats, Division, Mixed Types.</p>
+<p>type(‘candidate’)</p>
+<p>In your last result you see another abbreviation: str rather than string. Enter</p>
+<p>str(23)
+int(‘125’)</p>
+<p>Note the presence and absence of quotes.</p>
+</div>
+<div class="section" id="input-and-output">
+<h2><span class="section-number">1.4. </span>Input and Output<a class="headerlink" href="#input-and-output" title="Permalink to this headline">¶</a></h2>
+<div class="sidebar">
+<p class="sidebar-title">slides</p>
+<p><a class="reference external" href="http://localhost:8000/slides/the_beginning.html#(5)">Input and Output</a></p>
+</div>
+</div>
+<div class="section" id="creating-functions">
+<h2><span class="section-number">1.5. </span>Creating Functions<a class="headerlink" href="#creating-functions" title="Permalink to this headline">¶</a></h2>
+<div class="sidebar">
+<p class="sidebar-title">slides</p>
+<p><a class="reference external" href="http://localhost:8000/slides/the_beginning.html#(5)">Creating funtions</a></p>
+</div>
+</div>
+<div class="section" id="excercises">
+<h2><span class="section-number">1.6. </span>Excercises<a class="headerlink" href="#excercises" title="Permalink to this headline">¶</a></h2>
+<div class="sidebar">
+<p class="sidebar-title">solutions</p>
+<p><a class="reference external" href="http://localhost:8000/slides/the_beginning.html#(5)">Solutions</a></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="lists.html" class="btn btn-neutral float-right" title="2. Lists" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Hands-on Python’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Visvanath Ratnaweera
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
